@@ -1,0 +1,43 @@
+
+.text.split{
+    font-size:90pt;
+    position:absolute;
+    left:6%;
+    top:30%;
+}
+div.background.split{
+    cursor: pointer;
+}
+img.split{
+    cursor:pointer;
+}
+#top.background.split{
+    background-color: #FFE09F;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:50%;
+    color:#21686b;
+}
+#bottom.background.split{
+    background-color:#21686b;
+    position:absolute;
+    top:50%;
+    left:0;
+    right:0;
+    bottom:0;
+    color: #FFDF9F;
+}
+#top.background.split:hover{
+    color:#B13936;
+}
+#bottom.background.split:hover{
+    color:#B13936;
+}
+#tree.background.split{
+    position:absolute;
+    bottom:50%;
+    right:20%;
+    height:20%;
+}
