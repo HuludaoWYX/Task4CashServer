@@ -1,7 +1,7 @@
 var http = require('http');
 
 http.createServer(function(request, response) {
-	response.writeHead(200);
+	response.writeHead("this is head");
 	response.write("Hello World");
 	setTimeout(function() {
 		response.write("running done");

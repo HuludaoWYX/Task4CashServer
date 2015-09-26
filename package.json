@@ -1,0 +1,19 @@
+{
+  "name": "task4cashserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HuludaoWYX/Task4CashServer.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HuludaoWYX/Task4CashServer/issues"
+  },
+  "homepage": "https://github.com/HuludaoWYX/Task4CashServer#readme"
+}
