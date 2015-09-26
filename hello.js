@@ -13,7 +13,7 @@ fs.readFile('./split.html', function(err, html) {
 	}).listen(8080);
 
 
-}
+});
 
 
 console.log('Listening on port 8080...');
