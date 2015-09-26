@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/HuludaoWYX/Task4CashServer/issues"
   },
-  "homepage": "https://github.com/HuludaoWYX/Task4CashServer#readme"
+  "homepage": "https://github.com/HuludaoWYX/Task4CashServer#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
 }
