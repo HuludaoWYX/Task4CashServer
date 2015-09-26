@@ -17,3 +17,4 @@ app.get('/', function (req, res) {
 
 app.listen(3000);
 console.log("Running on 3000")
+console.log(__dirname);
