@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/HuludaoWYX/Task4CashServer#readme",
   "dependencies": {
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "mongodb": "~2.0.33",
+    "monk": "~1.0.1"
   }
 }
