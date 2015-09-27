@@ -1,6 +1,120 @@
+body {
+	background-color: #FFE09F;
+}
 
+.body {
+
+	background-color: #21686B;
+}
+
+textarea{
+	resize:none;
+}
+.title {
+
+	color: #21686B;
+}
+
+#form {
+	color: #B13936;
+}
+
+.noselect {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
 
 .tfcFont{
     font-family: 'Damion', cursive;
     font-weight:400;
+}
+
+
+.btn:focus {
+	outline:0;
+}
+
+
+div{
+	font-family: 'Muli', sans-serif;
+}
+#pageHeader{
+	position:fixed;
+	z-index:10;
+	top:0;
+	left:0;
+	right:0;
+	height:100px;
+	background-color:#21686B;
+	overflow:hidden;
+}
+.headerTree{
+	height:75px;
+	position:absolute;
+	bottom:0;
+	left:50px;
+	cursor:pointer;
+}
+.headerText{
+	color: #a7dbd8;
+	font-size:60pt;
+	margin:0 auto;
+	width:450px;
+	cursor:pointer;
+
+
+}
+
+.red{
+	color:#A82E08;
+	display:none;
+}
+.light{
+	color:#FFE09F;
+}
+#container{
+	position:absolute;
+	top:100px;
+	bottom:0;
+	left:0;
+	right:0;
+}
+
+.ratings.panel{
+	padding:10px;
+	width:350px;
+}
+#ratingsTitle{
+	text-align:center;
+	font-weight:900;
+}
+hr{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.cats-rats{
+	text-align:left;
+	width:260px;
+	font-size:16pt;
+	margin: 0 auto;
+	font-weight:700;
+}
+td{
+	min-width:50px;
+}
+td.value{
+	text-aligh:right;
+}
+td.category{
+	text-align:left;
+	padding-right:40px;
+	padding-bottom:15px;
+}
+#ratingsTitle > h1{
+	font-weight:800;
+	padding-bottom:10px;
 }

@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<!--
+ - Bootstrap v3.3.5 (http://getbootstrap.com)
+ - Copyright 2011-2015 Twitter, Inc.
+ - Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ - normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css -->
+
+<html>
+<head>
+	<title>Log In</title>
+	<!--Load bootStrap-->
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+		<link href='https://fonts.googleapis.com/css?family=Damion' rel='stylesheet' type='text/css'>
+
+	<!--Load CSS file for styling-->
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<link rel="stylesheet" type="text/css" href="login.css" />
+		<link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	<div id="pageHeader">
+		<div id="logoContainerParent" class="logoContainer">
+			<img class="headerTree light" src="tree_solid_light.png" onclick="location.href= '../../shared/split/split.html'" />
+			<div class="headerText light tfcFont noselect" onclick="location.href= '../../shared/split/split.html'"> Task for Cash</div>
+			<img class="headerTree red" src="tree_solid_red.png" onclick="location.href= '../../shared/split/split.html'" />
+			<div class="headerText red tfcFont noselect" onclick="location.href= '../../shared/split/split.html'"> Task for Cash</div>
+		</div>
+	</div>
+	<div id="container">
+		<div id="child">
+	<div class="pagination-centered">
+		<div class="row">
+			<h1 class="title text-center container-fluid">Hey Hey!</div>
+		</div>
+		<div class="row">
+			<div class="title text-center container-fluid">Email and Password Please</div>
+		</div>
+	</div>
+	<div class="text-center" id="form">
+		<div class="form">
+			<div class="form-group">
+				<input type="text" id="email" name="email" class="form-control" placeholder="Email Address">
+			</div>
+			<div id="zipParent" class="form-group">
+				<input type="text" id="zip" name="pw" class="form-control" placeholder="Password">
+			</div>
+
+
+			<button class="btn btn-default" onclick="search()">Log In</button>
+			<button class="btn btn-default" onclick="search()">Register</button>
+		</div>
+	</div>
+	</div>
+	</div>
+</body>
+	<!--Load jQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src="login.js"></script>
+</html>
